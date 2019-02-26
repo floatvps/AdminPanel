@@ -1,7 +1,6 @@
 ![Logo](https://github.com/floatvps/AdminPanel/raw/master/MiniLogo.jpg)
 # AdminPanel
-Free, Fully Open-Source ESX-i VPS Panel | better than freakin AutoVM
-The current version is:  Version 0.0.2_build1
+Free, Fully Open-Source ESX-i VPS Panel | better than freakin AutoVM | The current version is:  Version 0.0.2_build1
 # Requirements
 - ESX-i 5.X - Any Future Versions
 - Webserver
