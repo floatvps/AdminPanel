@@ -8,3 +8,7 @@ Free, Fully Open-Source ESX-i VPS Panel | better than freakin AutoVM
 - MySQL
 # Image Editor Requirements
 photoshop cs4
+# Install Instruction
+get latest copy, install it to htdocs
+install sql to a database called "adminpanel"
+login with username admin and password admin
