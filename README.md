@@ -1,4 +1,4 @@
-![Logo](https://github.com/floatvps/AdminPanel/raw/master/logo.jpg)
+![Logo](https://github.com/floatvps/AdminPanel/raw/master/MiniLogo.jpg)
 # AdminPanel
 Free, Fully Open-Source ESX-i VPS Panel | better than freakin AutoVM
 # Requirements
