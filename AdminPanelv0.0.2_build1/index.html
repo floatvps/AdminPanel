@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<script type='text/javascript'> 
+title = " [AdminPanel - Home Page] ";
+position = 0;
+function scrolltitle() {
+    document.title = title.substring(position, title.length) + title.substring(0, position); 
+    position++;
+    if (position > title.length) position = 0;
+    titleScroll = window.setTimeout(scrolltitle,170);
+}
+scrolltitle();
+</script>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="en">
+<link href="style.css" rel="stylesheet" type="text/css"></head><body>
+    <div id="page">         
+        <div id="header"> <a href="#"><img id="logo" src="images/logo.jpg" alt=""></a>
+            <h1><a href="#">AdminPanel v0.0.2</a></h1>
+            <p class="subtitle">You really shouldnt be here.</p>
+        </div>	
+        <div id="menu">
+            <ul><li><a href="#">Home</a></li>
+                <li><a href="vps/login.php">Login</a></li>
+                <li><a href="#">Your VPS</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul></div>		          					
+        <div id="main"><div id="main2">	
+                <div id="content">
+                    <h2>Top Text</h2>
+                    <div class="box">
+                        <p>Word placeholder Word placeholder Word placeholder Word placeholder Word placeholder Word placeholder Word placeholder 
+						Word placeholder Word placeholder Word placeholder Word placeholder </p>
+                    </div>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <div class="box">
+                        <p>Fusce viverra, velit vel tincidunt accumsan, neque ante posuere nunc, quis egestas turpis velit ut purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nisi purus, varius vitae dignissim sed, faucibus nec nibh. In vestibulum tortor eu metus vulputate condimentum.</p>
+                        <ul><li><span>+</span>Cum sociis natoque penatibus et magnis dis parturient montes</li>
+                            <li><span>+</span>Nascetur ridiculus mus, aenean rutrum tortor a purus</li>
+                            <li><span>+</span>Etiam convallis enim tincidunt erat dapibus tincidunt</li>
+                            <li><span>+</span>Quisque convallis nisl ac augue, nulla aliquam dui</li>
+                            <li><span>+</span>Class aptent taciti sociosqu ad litora torquent per conubia nostra</li>
+                        </ul><p>Donec imperdiet nisi vel nisl fringilla a imperdiet tortor mollis. Nulla non enim felis. Cras non nulla lacus, vel luctus velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam euismod enim sed velit adipiscing a sodales massa auctor.</p>
+                    </div>
+                    <h2>Maecenas venenatis rhoncus nulla</h2>
+                    <div class="box">
+                        <p>Maecenas venenatis rhoncus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>Pellentesque nisi purus, varius vitae dignissim sed, faucibus nec nibh. In vestibulum tortor eu metus vulputate condimentum. Donec imperdiet nisi vel nisl fringilla a imperdiet tortor mollis. Nulla hendrerit lacus at metus. Fusce viverra, velit vel tincidunt accumsan, neque ante posuere nunc, quis egestas turpis velit ut purus.</p>
+                    </div>
+                </div><!-- content -->   
+                <div id="sidebar">
+                    <h2>Ut ipsum massa</h2>
+                    <div class="box">
+                        <p class="spacer"><strong>Phasellus viverra</strong><br>
+                        velit eget odio dignissim sagittis. Ut ipsum massa, facilisis hendrerit... <a href="#">read more</a></p>
+                        <p class="spacer"><strong>Nam id lorem</strong><br>
+                        nulla. Nunc a leo elit. Etiam leo odio, volutpat sed vulputate ac, egestas ac urna... <a href="#">read more</a></p>
+                        <p><strong>Lorem ipsum</strong><br>
+                        dolor sit amet, consectetur adipiscing elit. Pellentesque nisi purus... <a href="#">read more</a></p>
+                    </div>
+                    <h2>Proin suscipit</h2>
+                    <ul><li><span>+</span><a href="#">Nulla hendrerit lacus at metus</a></li>
+                        <li><span>+</span><a href="#">Maecenas venenatis rhoncus nulla</a></li>
+                        <li><span>+</span><a href="#">Etiam convallis enim tincidunt</a></li>
+                        <li><span>+</span><a href="#">Class aptent taciti sociosqu ad litora torquent</a></li>
+                        <li><span>+</span><a href="#">Cum sociis natoque penatibus et magnis</a></li>
+                        <li><span>+</span><a href="#">Pellentesque blandit, arcu et tincidunt tempus</a></li>
+                    </ul><h2>Proin lobortis nisi</h2>
+                    <ul><li><span>+</span><a href="#">Vestibulum ante ipsum primis</a></li>
+                        <li><span>+</span><a href="#">Vestibulum vestibulum fringilla</a></li>
+                        <li><span>+</span><a href="#">Aenean rutrum tortor a purus</a></li>
+                        <li><span>+</span><a href="#">Integer non enim nec tellus</a></li>
+                        <li><span>+</span><a href="#">Lobortis tempus vel nec lorem</a></li>
+                        <li><span>+</span><a href="#">Magnis dis parturient montes</a></li>
+                    </ul></div><!-- sidebar -->                                   
+                <div class="clearing"> </div>
+        </div></div><!-- main --><!-- main2 -->
+        <div id="footer">
+            <p>Copyright © 2011, designed by <a href="http://www.alphastudio.pl/" target="_blank">Alpha Studio</a> | AdminPanel - by FloatVPS/Samdisk - <a href="" target="_blank">Github</a>
+</p>
+        </div>
+    </div><!-- page -->
+</body></html>
